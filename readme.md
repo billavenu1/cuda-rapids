@@ -9,7 +9,7 @@ Learning NVIDIA RAPIDS one notebook at a time. Every notebook is self-contained:
 | Folder | Topic | Status |
 |---|---|---|
 | [01_cuDF](rapids/01_cuDF/README.md) | GPU DataFrames, `cudf.pandas` | ✅ Done: 4 notebooks run on T4, [findings](rapids/01_cuDF/README.md) |
-| 02_cuVS | Vector search: brute force, IVF, CAGRA | ⏳ Next |
+| 02_cuVS | Multimodal RAG with cuVS: local EmbeddingGemma 2 (vLLM) over text, image, audio, video | 🚧 In progress |
 | 03_cuGraph | Graph analytics, nx-cugraph | — |
 | 04_cuML | GPU machine learning, `cuml.accel` | — |
 | 05_RMM_Dask | Memory pools, Dask-cuDF | — |
@@ -34,7 +34,7 @@ See [rapids/01_cuDF/README.md](rapids/01_cuDF/README.md) for the full setup, eve
 ```
 rapids/
 ├── 01_cuDF/       # GPU DataFrames, cudf.pandas
-├── 02_cuVS/       # Vector search: brute force, IVF, CAGRA
+├── 02_cuVS/       # Multimodal vector search + RAG: EmbeddingGemma 2, IVF, CAGRA
 ├── 03_cuGraph/    # Graph analytics, nx-cugraph
 ├── 04_cuML/       # GPU machine learning, cuml.accel
 ├── 05_RMM_Dask/   # Memory pools, Dask-cuDF
